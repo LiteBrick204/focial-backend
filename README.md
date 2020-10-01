@@ -476,6 +476,44 @@ npm start
 npm test
 ```
 
+## How to contribute to the project?
+    - If you want to contribute to this project, do the following:
+        1. Explore the project.
+        
+        2. If you find any bugs, features, small refactoring for better code.
+        
+        3. If so, Open them in the issues section of the respective project.
+        
+        3. Every project contains the contributing, the README file that shows how to setup the project; 
+           feel free to open an issue when you are stuck while setting up.
+           
+        4. If an issue takes more time than usual, then break them in to multiple issues;
+           this makes it faster to resolve the issue.
+        
+        5. Try to be as clear as possible in the issues with screenshots and logs or how to reproduce the issue. 
+        
+        6. Also, mention in issues if you are working on it.
+        
+        7. Wait for approval for the issues you have submitted.
+        
+        8. Once approved, start working on your fork on the project;
+           Then after doing so, submit the pull request to development branch with issue number. 
+        
+        9. Please note that one PR should solve only one issue.
+        
+        10. Most projects here will contain a CI that checks if your code has any errors and tests the code. 
+        
+        11. If CI fails check the error log and work on it.
+        
+        12. Once the CI approves your code as success, Contributors will review your code. 
+        
+        13. Then iterate your work based on review given.
+        
+        14. After your code looks good and bug-free, your code will be merged.
+        
+        15. Congrats, you are now an Open Source Contributor.
+    
+
 ## Authors
 
 | ![image](https://avatars3.githubusercontent.com/u/35001172?s=128&v=4)                                                                                                                                                                                                                                                                                                                                                                         | ![image](https://avatars1.githubusercontent.com/u/20471162?s=128&v=4)                                                                                                                                                                                                                                                                                                                                                                                                                 |
