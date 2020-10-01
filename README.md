@@ -24,55 +24,121 @@ This repository is a template to avoid rewriting all the basic authentication co
 
 ```
 .
-├── api
-│   └── v1
-│       ├── controllers
-│       │   ├── auth.js
-│       │   └── token.js
-│       ├── middlewares
-│       │   └── auth.js
-│       ├── models
-│       │   ├── auth.js
-│       │   └── token.js
-│       ├── routes
-│       │   ├── admin
-│       │   │   └── auth.js
-│       │   └── auth.js
-│       └── utils
-│           ├── constants.js
-│           ├── response.js
-│           ├── send_email.js
-│           ├── templates
-│           │   └── verify_email.pug
-│           └── validators.js
-├── ASSET_LICENSES
-├── core
-│   ├── config.js
-│   ├── db.js
-│   ├── jwt.js
-│   ├── print_env.js
-│   └── server.js
-├── index.js
-├── keys
-│   ├── private.pem
-│   ├── private.pem.example
-│   ├── privater.pem
-│   ├── privater.pem.example
-│   ├── public.pem
-│   ├── public.pem.example
-│   ├── publicr.pem
-│   └── publicr.pem.example
-├── LICENSE
-├── node-rest-api-auth.postman_collection.json
-├── package.json
-├── package-lock.json
-├── public
-│   └── images
-├── README.md
-└── tests
-    └── v1
-        ├── auth.js
-        └── test.js
+│   .eslintrc.json
+│   .gitattributes
+│   .gitignore
+│   .prettierrc
+│   ASSET_LICENSES
+│   CONTRIBUTING.md
+│   focial-backend.postman_collection.json
+│   index.js
+│   LICENSE
+│   package-lock.json
+│   package.json
+│   README.md
+│
+├───.github
+│   └───workflows
+│           tests_and_deploy.yml
+│
+├───api
+│   └───v1
+│       ├───controllers
+│       │       auth.js
+│       │       comment.js
+│       │       follow_request.js
+│       │       image.js
+│       │       notification.js
+│       │       post.js
+│       │       story.js
+│       │       token.js
+│       │       user.js
+│       │
+│       ├───middlewares
+│       │       auth.js
+│       │
+│       ├───models
+│       │       auth.js
+│       │       comment.js
+│       │       follow_request.js
+│       │       notification.js
+│       │       post.js
+│       │       story.js
+│       │       token.js
+│       │       user.js
+│       │
+│       ├───routes
+│       │   │   auth.js
+│       │   │   comment.js
+│       │   │   follow_request.js
+│       │   │   image.js
+│       │   │   notification.js
+│       │   │   post.js
+│       │   │   story.js
+│       │   │   user.js
+│       │   │
+│       │   └───admin
+│       │           auth.js
+│       │
+│       └───utils
+│           │   constants.js
+│           │   response.js
+│           │   send_email.js
+│           │   validators.js
+│           │
+│           └───templates
+│                   verify_email.pug
+│
+├───assets
+│       banner-node-rest-api.png
+│
+├───core
+│       config.js
+│       db.js
+│       helpers.js
+│       jwt.js
+│       print_env.js
+│       server.js
+│
+├───keys
+│       private.pem.example
+│       privater.pem.example
+│       public.pem.example
+│       publicr.pem.example
+│
+├───public
+│   ├───images
+│   │       app_image_2.png
+│   │       App_Store_Badge_US_Black.png
+│   │       facebook2x.png
+│   │       Google_Play_Badge_US.png
+│   │       instagram2x.png
+│   │       linkedin2x.png
+│   │       medium.png
+│   │       Step_1_1.png
+│   │       Step_2_2.png
+│   │       Step_3_1.png
+│   │       twitter2x.png
+│   │       Up_pink.png
+│   │       Welcome_Email.png
+│   │       white_down.png
+│   │       Your_Logo.png
+│   │       youtube2x.png
+│   │
+│   └───uploads
+│       ├───cover
+│       │       .gitignore
+│       │
+│       ├───posts
+│       │       .gitignore
+│       │
+│       └───pps
+│               .gitignore
+│
+└───tests
+    └───v1
+            auth.js
+            test.js
 ```
 
 ## Tech stack
